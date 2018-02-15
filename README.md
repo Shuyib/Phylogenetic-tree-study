@@ -8,12 +8,14 @@ Setting up your environment
 
   `conda env create -f environment.yml`
 
-This creates an environment called py35. Activate it with this command in your terminal
+  This creates an environment called py35. Activate it with this command in your terminal
 
-`source activate py35`
+  `source activate py35`
 
 * In your terminal, in the directory where you cloned this repository. Run this command
+
 `jupyter notebook Phylogenetic_trees_unsupervised_learning.ipynb`
 
-I've not provided a codebook/data description file because one of the headings cover that in the notebook.
-Otherwise, you can decided to view the notebook or the HTML file i've provided.
+I've not provided a codebook/data description file since one of the headings cover that in the notebook.
+Otherwise, you can check out the [notebook](https://nbviewer.jupyter.org/github/Shuyib/Phylogenetic-tree-study/blob/master/Phylogenetic_trees_unsupervised_learning.ipynb) or the HTML file i've provided in the repository.
+
