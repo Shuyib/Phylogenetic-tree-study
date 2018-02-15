@@ -1,0 +1,26 @@
+Analysis
+Analysis :  Phylogenetic Reconstruction
+Statistical Method:  Maximum Likelihood
+
+Phylogeny Test
+Test for Phylogeny: Bootstrap method
+No of bootstrap replications: 500
+
+Substitution Model
+Substitutions type: Nucleotide
+Method: Jukes-Cantor model 
+
+Rates and Patterns
+Rates among Sites: Uniform rates
+
+Data Subset to Use
+Gaps/Missing Data Treatment: Complete deletion
+
+
+Tree Inference Options
+ML Heuristic Method: Nearest-Neighbor-Interchange(NNI)
+Initial Tree for ML: Make initial tree automatically (Default - NJ/BioNJ)
+Branch Swap Filter: None
+
+Systems Resource Usage
+Number of threads: 1
