@@ -1,0 +1,23 @@
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet retrieved Wed Feb 14 10:18:58 EAT 2018
+https://github.com/dunovank/jupyter-themes retrieved Wed Feb 14 10:18:58 EAT 2018
+https://www.coursera.org/learn/microbiome/ retrieved Wed Feb 14 10:18:58 EAT 2018
+https://www.coursera.org/learn/bioinformatics-methods-2 retrieved Wed Feb 14 10:18:58 EAT 2018
+https://www.coursera.org/learn/bioinformatics-methods-1 retrieved Wed Feb 14 10:18:58 EAT 2018
+https://en.wikipedia.org/wiki/16S_ribosomal_RNA retrieved Wed Feb 14 10:25:36 EAT 2018
+https://pyperclip.readthedocs.io/en/latest/introduction.html retrieved Wed Feb 14 10:42:25 EAT 2018
+https://docs.python.org/2/library/collections.html#collections.Counter retrieved Wed Feb 14 17:19:13 EAT 2018
+https://docs.scipy.org/doc/numpy/user/quickstart.html retrieved Wed Feb 14 17:24:04 EAT 2018
+https://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb retrieved Wed Feb 14 17:25:56 EAT 2018
+https://pandas.pydata.org/pandas-docs/stable/ retrieved Wed Feb 14 17:25:56 EAT 2018
+https://bokeh.pydata.org/en/latest/docs/user_guide.html retrieved Wed Feb 14 17:30:30 EAT 2018
+http://rosalind.info/problems/gc/ retrieved Thu Feb 15 13:36:15 EAT 2018
+https://en.wikipedia.org/wiki/Ward%27s_method retrieved Thu Feb 15 13:51:50 EAT 2018
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.dendrogram.html retrieved Thu Feb 15 15:18:06 EAT 2018
+Andreas C. Müller and Sarah Guido (2017). Introduction to Machine Learning with Python A Guide for Data Scientists. O’Reilly Media, Inc. United States of America. pages read 184-187
+https://www2.ib.unicamp.br/profs/sfreis/SistematicaMolecular/Aula08MetodosMatrizesDistancias/Leituras/ThePhylogeneticHandbookMatrizesDistancias.pdf retrieved Thu Feb 15 15:25:26 EAT 2018
+https://en.wikipedia.org/wiki/Klebsiella_pneumoniae retrieved Thu Feb 15 15:34:12 EAT 2018
+https://en.wikipedia.org/wiki/Klebsiella_pneumoniae retrieved Thu Feb 15 15:35:22 EAT 2018
+https://en.wikipedia.org/wiki/Acinetobacter_baumannii retrieved Thu Feb 15 15:35:22 EAT 2018
+
+
+
