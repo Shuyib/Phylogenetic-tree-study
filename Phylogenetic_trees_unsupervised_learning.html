@@ -15885,10 +15885,10 @@ C         147     191       326           155       160           481
 
 
 
-<div id="465adba2-1dd1-47d6-bedb-68fc146f772d"></div>
+<div id="bd52fd38-52e8-4da3-84e6-a878c0f8c4c0"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#465adba2-1dd1-47d6-bedb-68fc146f772d');
+var element = $('#bd52fd38-52e8-4da3-84e6-a878c0f8c4c0');
 
 (function(global) {
   function now() {
@@ -16425,7 +16425,7 @@ var element = $('#465adba2-1dd1-47d6-bedb-68fc146f772d');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>From the calculations done above these sequences are different. They don't align so well -- check the file aligned_16S_Rrna.meg on my github repository. This is due to a couple of reasons: we do not have the full sequence of the 16S Rrna gene for some organisms as i mentioned earlier, i've taken very few organisms that makes it even difficult for the software MEGA7 and clustal Omega to give better results in terms of making distance matrices between the bases. So what i'm doing is analogous to a situation of working with outliers. Removing them makes things worse since we won't have any sequences to compare.</p>
+<p>From the calculations done above these sequences are different. They don't align so well -- check the file aligned_16S_Rrna.meg in the file data on my <a href="https://github.com/Shuyib/Phylogenetic-tree-study/tree/master/data">github repository</a>. This is due to a couple of reasons: we do not have the full sequence of the 16S Rrna gene for some organisms as i mentioned earlier, i've taken very few organisms that makes it even difficult for the software MEGA7 and clustal Omega to give better results in terms of making distance matrices between the bases. So what i'm doing is analogous to a situation of working with outliers. Removing them makes things worse since we won't have any sequences to compare.</p>
 <p>What exactly is a distance matrix? Let's go back to phylogenetics tools -- they are two ways of comparing given sequences one are <strong>distance based methods</strong> and the other is <strong>character based methods</strong>. Guess what? We've used both in this analysis. You'll figure that out after reading this explanation i'm about to give.</p>
 <p>A matrix consists of rows and columns of data of the same type. So when using distance based methods determining the number of mismatches between sequences sort of like this "AATTCC" == "AATTGG" == "AGGCC" but you do this with multiple sequences which gives rise to a pairwise distance matrix; this allows us to identify closely related species and the first two branches of the tree are formed. Then this matrix is remade, but from the previous step the most closely related species are found on the terminal branches. See the terminal node that is, marked red with <em>H.pylori</em> and <em>S.pneumoniae</em> 2nd last phylogenetic tree. In short, it involves estimating evolutionary distances and correcting for multiple events <em>Jukes &amp; Cantor 1969</em> then making of a tree diagram based on the evolutionary distance. For example, the <strong>Neighbour joining method</strong>.</p>
 <p>Character based methods, aim to explain the relationship between the sequences that are most likely or give the simplest explanation observed in the data. They look at all possible trees and identify the single tree or set of trees that explains the data the best based on a specific criteria. For example <strong>Maximum Likelihood</strong>.</p>
