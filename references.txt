@@ -15,7 +15,7 @@ https://en.wikipedia.org/wiki/Ward%27s_method retrieved Thu Feb 15 13:51:50 EAT 
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.dendrogram.html retrieved Thu Feb 15 15:18:06 EAT 2018
 Andreas C. Müller and Sarah Guido (2017). Introduction to Machine Learning with Python A Guide for Data Scientists. O’Reilly Media, Inc. United States of America. pages read 184-187
 https://www2.ib.unicamp.br/profs/sfreis/SistematicaMolecular/Aula08MetodosMatrizesDistancias/Leituras/ThePhylogeneticHandbookMatrizesDistancias.pdf retrieved Thu Feb 15 15:25:26 EAT 2018
-https://en.wikipedia.org/wiki/Klebsiella_pneumoniae retrieved Thu Feb 15 15:34:12 EAT 2018
+https://en.wikipedia.org/wiki/Streptococcus_pneumoniae retrieved Thu Feb 15 15:34:12 EAT 2018
 https://en.wikipedia.org/wiki/Klebsiella_pneumoniae retrieved Thu Feb 15 15:35:22 EAT 2018
 https://en.wikipedia.org/wiki/Acinetobacter_baumannii retrieved Thu Feb 15 15:35:22 EAT 2018
 
