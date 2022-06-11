@@ -1,7 +1,7 @@
 - [ ] Update project with more microbes to improve the alignment
 - [ ] Add todo list with updated task list
 - [ ] Add project workflow
-- [ ] Add Makefile
+- [x] Add Makefile
 - [ ] Update the packages to the only ones useful to project
 - [ ] Add Dockerfile
 - [ ] Add License
