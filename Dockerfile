@@ -3,7 +3,7 @@ FROM python:3.5-slim-buster
 
 # Meta-data
 LABEL maintainer="Shuyib" \
-      description="Docker Data Science workflow: Feature engineering and modelling for the chronic kidney disease dataset."
+      description=""
       
 # Set the working directory to /app
 WORKDIR /app
@@ -15,10 +15,10 @@ ENV PYTHONUNBUFFERED=TRUE
 COPY . /app
 
 # create a virtual environment and activate it
-#RUN python3 -m venv ml-env
+RUN python3 -m venv phylo-env
 
 # activate virtual environment
-#CMD source ml-env/bin/activate
+CMD source phylo-env/bin/activate
 
 # Install the required libraries
 #RUN pip --no-cache-dir install -r /app/requirements.txt
