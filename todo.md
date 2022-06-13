@@ -4,5 +4,5 @@
 - [x] Add Makefile
 - [ ] Update the packages to the only ones useful to project
 - [ ] Add Dockerfile
-- [ ] Add License
+- [x] Add License
 - [ ] Add nine potential organisms to the 16rRNA
