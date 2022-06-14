@@ -3,6 +3,7 @@
 - [ ] Add project workflow
 - [x] Add Makefile
 - [ ] Update the packages to the only ones useful to project
-- [ ] Add Dockerfile
+- [x] Add Dockerfile
 - [x] Add License
 - [ ] Add nine potential organisms to the 16rRNA
+- [ ] Add CI/CD step
