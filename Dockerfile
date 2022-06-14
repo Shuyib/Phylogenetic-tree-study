@@ -3,7 +3,7 @@ FROM python:3.5-slim-buster
 
 # Meta-data
 LABEL maintainer="Shuyib" \
-      description=""
+      description="Comparing different ways of constructing phylogenetic trees"
       
 # Set the working directory to /app
 WORKDIR /app
@@ -21,14 +21,15 @@ RUN python3 -m venv phylo-env
 CMD source phylo-env/bin/activate
 
 # Install the required libraries
-#RUN pip --no-cache-dir install -r /app/requirements.txt
+RUN pip --no-cache-dir install --upgrade pip &&\
+		pip --no-cache-dir install -r requirements.txt
 
-# Make port 9999 available to the world outside this container
-#EXPOSE 9999
+# Make port 1111 available to the world outside this container
+EXPOSE 1111
 
 # Create mountpoint
 VOLUME /app
 
 # Run jupyter when container launches
-CMD ["jupyter", "notebook", "--ip='*'", "--port=9999", "--no-browser", "--allow-root"]
+CMD ["jupyter", "notebook", "--ip='*'", "--port=1111", "--no-browser", "--allow-root"]
 
