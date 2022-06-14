@@ -12,4 +12,4 @@ run:
 	# run the container
 	docker run -it -p 9999:9999 --rm phylo-exp:latest
 
-all: install build
+all: install build run
