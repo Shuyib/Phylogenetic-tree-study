@@ -1,0 +1,7 @@
+pyperclip
+numpy
+pandas
+matplotlib
+bokeh
+seaborn
+scipy
