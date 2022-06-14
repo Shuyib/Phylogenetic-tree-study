@@ -1,7 +1,7 @@
-pyperclip
-numpy
-pandas
-matplotlib
-bokeh
-seaborn
-scipy
+pyperclip==1.8.2
+numpy==1.22.4
+pandas==1.4.2
+matplotlib==3.5.2
+bokeh==2.4.3
+seaborn==0.11.2
+scipy==1.8.1
