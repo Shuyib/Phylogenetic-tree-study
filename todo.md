@@ -8,4 +8,4 @@
 - [ ] Add nine potential organisms to the 16rRNA (*Neisseria gonorrhea*, *Bordtella pertussis*, *Mycobacterium tuberculosis*, *Salmonella Typhi*, *Mycoplasma genitalium*, *Clostridium difficile*, *Pseudomonas aeruginosa* and Carbapenem-resistant Enterobacterales.
 - [ ] Add CI/CD step
 - [ ] Use biopython or other libraries to try automate steps of getting sequences
-- [ ] Use MEME to find motifs and improve clustering done before
+- [ ] Use [MEME](https://rosalind.info/glossary/meme/) to find motifs and improve clustering done before
