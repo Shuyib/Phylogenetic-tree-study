@@ -5,7 +5,7 @@
 - [ ] Update the packages to the only ones useful to project
 - [x] Add Dockerfile
 - [x] Add License
-- [ ] Add nine potential organisms to the 16S rRNA (*Neisseria gonorrhea*, *Bordtella pertussis*, *Mycobacterium tuberculosis*, *Salmonella Typhi*, *Mycoplasma genitalium*, *Clostridium difficile*, *Pseudomonas aeruginosa* and Carbapenem-resistant Enterobacterales.
+- [ ] Add nine potential organisms to the 16S rRNA (*Neisseria gonorrhea*("Neisseria gonorrhoeae"[Organism] OR Neisseria gonorrhoeae[All Fields]) AND 16S rRNA[All Fields], *Bordtella pertussis*, *Mycobacterium tuberculosis* (search query "Mycobacterium tuberculosis"[Organism] AND 16S rRNA[All Fields]), *Salmonella Typhi*, *Mycoplasma genitalium*, *Clostridium difficile*, *Pseudomonas aeruginosa* (Pseudomonas aeruginosa AND 16S rRNA) and Carbapenem-resistant Enterobacterales.
 - [ ] Add CI/CD step
 - [ ] Use biopython or other libraries to try automate steps of getting sequences
 - [ ] Use [MEME](https://rosalind.info/glossary/meme/) to find motifs and improve clustering done before
