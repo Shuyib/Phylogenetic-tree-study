@@ -9,4 +9,6 @@
 - [ ] Add CI/CD step
 - [ ] Use biopython or other libraries to try automate steps of getting sequences
 - [ ] Use [MEME](https://rosalind.info/glossary/meme/) to find motifs and improve clustering done before
-- [ ] Add more different versions of python from 3.7, 3.8 and 3.9 in your tests. Just to circumvent the end of life python things.
+- [ ] Add more different versions of python from 3.7, 3.8 and 3.9 in your tests. Just to circumvent the end of life python things to github actions.
+- [ ] Update Dockerfile to Python 3.8
+- [ ] Edit the requirements.txt on another branch for easy comparison.
