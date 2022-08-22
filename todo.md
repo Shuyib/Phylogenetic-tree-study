@@ -2,13 +2,14 @@
 - [ ] Add todo list with updated task list
 - [ ] Add project workflow
 - [x] Add Makefile
-- [ ] Update the packages to the only ones useful to project
+- [x] Update the packages to the only ones useful to project
+- [ ] Update environment.yml to have all the packages based on requirements.txt (use miniconda)
 - [x] Add Dockerfile
 - [x] Add License
-- [ ] Add nine potential organisms to the 16S rRNA (*Neisseria gonorrhea*("Neisseria gonorrhoeae"[Organism] OR Neisseria gonorrhoeae[All Fields]) AND 16S rRNA[All Fields], *Bordtella pertussis*, *Mycobacterium tuberculosis* (search query "Mycobacterium tuberculosis"[Organism] AND 16S rRNA[All Fields]), *Salmonella Typhi*, *Mycoplasma genitalium*, *Clostridium difficile*, *Pseudomonas aeruginosa* (Pseudomonas aeruginosa AND 16S rRNA) and Carbapenem-resistant Enterobacterales and Clostridium difficile.
+- [ ] Add nine potential organisms to the 16S rRNA (*Neisseria gonorrhea*("Neisseria gonorrhoeae"[Organism] OR Neisseria gonorrhoeae[All Fields]) AND 16S rRNA[All Fields], *Bordtella pertussis*, *Mycobacterium tuberculosis* (search query "Mycobacterium tuberculosis"[Organism] AND 16S rRNA[All Fields]), *Salmonella Typhi*, *Mycoplasma genitalium*(potential https://www.ncbi.nlm.nih.gov/nuccore/X77334 and paper https://pubmed.ncbi.nlm.nih.gov/12517858/), *Clostridium difficile*(Clostridium difficile [Organism] AND 16S rRNA), *Pseudomonas aeruginosa* (Pseudomonas aeruginosa AND 16S rRNA) and Carbapenem-resistant Enterobacterales.
 - [ ] Add CI/CD step
 - [ ] Use biopython or other libraries to try automate steps of getting sequences
 - [ ] Use [MEME](https://rosalind.info/glossary/meme/) to find motifs and improve clustering done before
 - [ ] Add more different versions of python from 3.7, 3.8 and 3.9 in your tests. Just to circumvent the end of life python things to github actions.
-- [ ] Update Dockerfile to Python 3.8
+- [ ] Update Dockerfile to Python 3.8-slim-buster
 - [ ] Edit the requirements.txt on another branch for easy comparison.
