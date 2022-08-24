@@ -1,5 +1,5 @@
 # Use latest Python runtime as a parent image
-FROM python:3.5-slim-buster
+FROM python:3.7-slim-buster
 
 # Meta-data
 LABEL maintainer="Shuyib" \
