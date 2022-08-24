@@ -29,6 +29,14 @@ $(CONDA_ENV_NAME):
 clean-conda-env:  ## Remove the conda environment and the relevant file
 	rm -rf $(CONDA_ENV_NAME)
 	rm -rf $(CONDA_ENV_NAME).zip
+
+.PHONY: add-to-jupyter
+add-to-jupyter: ## Register the conda environment to Jupyter
+	$(ACTIVATE_ENV) && python -s -m ipykernel install --user --name $(CONDA_ENV_NAME)
+
+.PHONY: remove-from-jupyter
+remove-from-jupyter: ## Remove the conda environment from Jupyter
+	jupyter kernelspec uninstall $(CONDA_ENV_NAME)
 	
 build:
 	# build the container: More important for the CI/CD
@@ -38,4 +46,4 @@ run:
 	# run the container
 	docker run -it -p 9999:9999 --rm phylo-exp:latest
 
-all: build-conda-env clean-conda-env build run
+all: build-conda-env clean-conda-env add-to-jupyter remove-from-jupyter build run
