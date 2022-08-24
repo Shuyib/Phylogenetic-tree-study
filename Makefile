@@ -15,7 +15,7 @@ help:
 ###################
 
 PY_VERSION := 3.8
-CONDA_ENV_NAME ?= conda-env-test
+CONDA_ENV_NAME ?= phylo-env
 ACTIVATE_ENV = source activate ./$(CONDA_ENV_NAME)
 
 .PHONY: build-conda-env
@@ -38,4 +38,4 @@ run:
 	# run the container
 	docker run -it -p 9999:9999 --rm phylo-exp:latest
 
-all: install build run
+all: build-conda-env clean-conda-env build run
