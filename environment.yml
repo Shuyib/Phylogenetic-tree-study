@@ -186,4 +186,4 @@ dependencies:
   - tensorflow==1.5.0
   - tensorflow-tensorboard==1.5.0
   - werkzeug==0.14.1
-prefix: /Users/brendamainye/anaconda/envs/py35
+prefix: ~/anaconda/envs/py35
