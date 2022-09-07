@@ -5,5 +5,5 @@ matplotlib==3.5.2
 bokeh==2.4.3
 seaborn==0.11.2
 scipy==1.8.1
-jupyter
-biopython
+jupyter==1.0.0
+biopython==1.78
