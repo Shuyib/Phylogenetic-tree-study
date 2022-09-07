@@ -19,11 +19,14 @@ CONDA_ENV_NAME ?= phylo-env
 ACTIVATE_ENV = source activate ./$(CONDA_ENV_NAME)
 
 .PHONY: build-conda-env
-build-conda-env: $(CONDA_ENV_NAME)  ## Build the conda environment
+build-conda-env: $(CONDA_ENV_NAME)  ## Build the conda environment & activate the virtual env with conda activate name of virtual environment
 $(CONDA_ENV_NAME):
 	conda create -p $(CONDA_ENV_NAME)  --copy -y  python=$(PY_VERSION)
-	$(ACTIVATE_ENV) && pip --no-cache-dir install --upgrade pip &&
-	python -s -m pip --no-cache-dir install -r requirements.txt
+	$(ACTIVATE_ENV) 
+
+.PHONY: install
+install:
+	conda install --file requirements.txt
 
 .PHONY: clean-conda-env
 clean-conda-env:  ## Remove the conda environment and the relevant file
