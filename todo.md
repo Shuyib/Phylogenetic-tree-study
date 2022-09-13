@@ -8,7 +8,8 @@
 - [x] Add License
 - [x] Add nine potential organisms to the 16S rRNA (*Neisseria gonorrhea*(https://www.ncbi.nlm.nih.gov/nuccore/X07714.1/ & paper normally streptomycin resistant https://www.ncbi.nlm.nih.gov/pmc/articles/PMC336862/?page=1)[x], *Bordtella species*(https://www.ncbi.nlm.nih.gov/nuccore/AF177667 [x] & https://www.ncbi.nlm.nih.gov/nuccore/AF177666 [x] paper https://www.ncbi.nlm.nih.gov/pmc/articles/PMC86205/), *Mycobacterium tuberculosis* (https://www.ncbi.nlm.nih.gov/nuccore/MN166772.1 & paper unpublished), *Salmonella Typhi*(https://www.ncbi.nlm.nih.gov/nuccore/Z47544 & paper DOI: 10.13057/biodiv/d120101)[x], *Mycoplasma genitalium*(potential https://www.ncbi.nlm.nih.gov/nuccore/X77334 and paper https://pubmed.ncbi.nlm.nih.gov/12517858/)[x], *Clostridium difficile* (https://www.ncbi.nlm.nih.gov/nuccore/MW798268 & paper https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8708398/)(Non-human) replace with this https://www.ncbi.nlm.nih.gov/nuccore/NR_112172.1[x], *Pseudomonas aeruginosa* (https://www.ncbi.nlm.nih.gov/nuccore/LT599799.2 & paper unpublished)[x] and Carbapenem-resistant Enterobacterales Raoultella ornithinolytica/ Klebsiella ornithinolytica(https://www.ncbi.nlm.nih.gov/nuccore/KT378441.1 & unpublished). Easier to go through search engine first to narrow down better and the nucleotide database in ncbi is easier.  
 - [ ] Add CI/CD step
-- [ ] Use biopython or other libraries to try automate steps of getting sequences
+- [ ] Use biopython or other libraries to try automate steps of getting sequences.
+      - [ ] fix the fastadataloader to allow getting data for all the accession numbers and append them to a file. 
 - [ ] Use [MEME](https://rosalind.info/glossary/meme/) to find motifs and improve clustering done before
 - [ ] Add more different versions of python from 3.7, 3.8 and 3.9 in your tests. Just to circumvent the end of life python things to github actions.
 - [ ] Update Dockerfile to Python 3.8-slim-buster
