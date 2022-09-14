@@ -3,7 +3,9 @@ import os
 
 Entrez.email = os.getenv("email")
 
-handle = Entrez.efetch(db="nucleotide", id="X07714.1", rettype="fasta", retmode="text")
-
-handle.readlines()
+for accession in accession_no:
+    val = Entrez.efetch(db="nucleotide", id= accession, rettype="fasta", retmode="text")
+    all_vals = str(val.readlines())
+    with open("16S_rRNA.fasta", mode="w") as file:
+        file.write(all_vals)
 
