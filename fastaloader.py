@@ -8,5 +8,5 @@ accession_no = ["LN871587.1", "FM207520.1", "HF564650.1", "FM207545.1", "AM15744
 for accession in accession_no:
     val = Entrez.efetch(db="nucleotide", id= accession, rettype="fasta", retmode="text")
     name = str(accession) + str(".fasta")
-    with open(name, mode="a") as file:
+    with open(name, mode="w") as file:
         file.write(str(val.readlines()))
