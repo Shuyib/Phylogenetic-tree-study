@@ -10,8 +10,8 @@
 - [ ] Add CI/CD step with github actions.  
 - [x] Use biopython or other libraries to try automate steps of getting sequences.   
       - [] fix the fastadataloader to allow getting data for all the accession numbers and append them to a file.   
-      - [] Write a function to automate the getting of sequences with the accession numbers.
-      - [] Merge fasta files to multifasta.
+      - [] Write a function to automate the getting of sequences with the accession numbers.  
+      - [] Merge fasta files to multifasta.  
 - [ ] Use [MEME](https://rosalind.info/glossary/meme/) to find motifs and improve clustering done before.  
 - [ ] Add more different versions of python from 3.8, 3.9 and 3.10 in your tests. Just to circumvent the end of life python things to github actions.
 - [x] Update Dockerfile to Python 3.8-slim-buster.
