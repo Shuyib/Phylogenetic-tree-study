@@ -1,4 +1,5 @@
 - [ ] Update project with more microbes to improve the grouping
+- [ ] Update table created with the old microbes and descriptions
 - [ ] Add todo list with updated kanban
 - [ ] Add project workflow (last steps)
 - [x] Add Makefile
