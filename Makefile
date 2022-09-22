@@ -40,6 +40,20 @@ add-to-jupyter: ## Register the conda environment to Jupyter
 .PHONY: remove-from-jupyter
 remove-from-jupyter: ## Remove the conda environment from Jupyter
 	jupyter kernelspec uninstall $(CONDA_ENV_NAME)
+
+docstring:
+	# format docstring
+	pyment -w -o numpydoc *.py
+	
+format:
+	#format code
+	black *.py 
+lint:
+	#flake8 or #pylint
+	pylint --disable=R,C --errors-only *.py 
+test:
+	#test
+	python -m pytest testing/*.py
 	
 build:
 	# build the container: More important for the CI/CD
@@ -49,4 +63,4 @@ run:
 	# run the container
 	docker run -it -p 9999:9999 --rm phylo-exp:latest
 
-all: build-conda-env clean-conda-env add-to-jupyter remove-from-jupyter build run
+all: build-conda-env clean-conda-env add-to-jupyter remove-from-jupyter docstring format lint test build run
