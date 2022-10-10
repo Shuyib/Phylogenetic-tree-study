@@ -17,3 +17,6 @@
 - [ ] Add more different versions of python from 3.8, 3.9 and 3.10 in your tests. Just to circumvent the end of life python things to github actions.
 - [x] Update Dockerfile to Python 3.8-slim-buster.
 - [ ] Edit the requirements.txt on another branch for easy comparison.
+- [ ] Consider using DictVectorizer and semi-supervised learning to see if any generalizations arise from using a neural network.    
+- [ ] Assign 2 microbes per person to speed up sequence discovery and replacement.  
+- [ ] Test the readFasta function from this [notebook](https://github.com/BioinfoNet/TeachingJupyterNotebooks)
