@@ -2,9 +2,9 @@
 Python utility module to calculate a couple of sequence identification metrics.
 """
 
-from Bio import SeqIO
-from Bio.SeqUtils import GC
-import pandas as pd
+from Bio import SeqIO # manipulation of sequences
+from Bio.SeqUtils import GC # sequence metric module Bio.SeqUtils
+import pandas as pd  # data manipulation library
 
 
 def GA(seq):
@@ -19,6 +19,12 @@ def GA(seq):
     -------
     Float64
         % of Guanine and Adenine in the given sequence
+    
+    Example
+    -------
+    >>> from Bio.SeqUtils import GC
+    >>> GA("ACTGN")
+    40.0
 
 
     """
@@ -49,6 +55,8 @@ def calculate_seq_metrics(multifasta):
     gc_content = []
     ga_content = []
     length_seq = []
+    
+    
     # use a filehandler to open the file
     with open(multifasta, encoding="UTF-8") as handle:
         # foreach record find individual gc content,
@@ -63,8 +71,8 @@ def calculate_seq_metrics(multifasta):
             sequences.append(str(record.seq))
             length_seq.append(len(record))
             dataframe = pd.DataFrame(
-                zip(identifiers, length_seq, gc_content, ga_content),
-                columns=["accession_id", "seq_length", "gc_content", "ga_content"],
+                zip(identifiers, length_seq, gc_content, ga_content, sequence),
+                columns=["accession_id", "seq_length", "gc_content", "ga_content","sequence"],
             )
         return dataframe
 
