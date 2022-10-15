@@ -19,4 +19,6 @@
 - [ ] Edit the requirements.txt on another branch for easy comparison.
 - [ ] Consider using DictVectorizer and semi-supervised learning to see if any generalizations arise from using a neural network.    
 - [ ] Assign 2 microbes per person to speed up sequence discovery and replacement.  
-- [x] Test the readFasta function from this [notebook](https://github.com/BioinfoNet/TeachingJupyterNotebooks)
+- [x] Test the readFasta function from this [notebook](https://github.com/BioinfoNet/TeachingJupyterNotebooks).  
+- [ ] Make a dashboard with [Pyscript](https://pyscript.net/) or [streamlit](streamlit.io) to explain the results better.  
+- [ ] Use KEGG or something else to find out the function of the motifs found by MEME. Refer to biopython. 
