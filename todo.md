@@ -17,7 +17,7 @@
 - [ ] Add more different versions of python from 3.8, 3.9 and 3.10 in your tests. Just to circumvent the end of life python things to github actions.
 - [x] Update Dockerfile to Python 3.8-slim-buster.
 - [ ] Edit the requirements.txt on another branch for easy comparison.
-- [ ] Consider using DictVectorizer and semi-supervised learning to see if any generalizations arise from using a neural network.    
+- [ ] Consider using DictVectorizer and semi-supervised learning to see if any generalizations arise from using a neural network. Review contrastive loss and ideas [here](https://towardsdatascience.com/contrastive-loss-explaned-159f2d4a87ec)   
 - [ ] Assign 2 microbes per person to speed up sequence discovery and replacement.  
 - [x] Test the readFasta function from this [notebook](https://github.com/BioinfoNet/TeachingJupyterNotebooks).  
 - [ ] Make a dashboard with [Pyscript](https://pyscript.net/) or [streamlit](streamlit.io) to explain the results better.  
