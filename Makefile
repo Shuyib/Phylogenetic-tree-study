@@ -23,5 +23,8 @@ run_test:
 run:
 	# run the container
 	docker run -it -p 9999:9999 --rm phylo-exp:latest
-	
+deploy:
+	# add step to deploy to cloud provider if any
+	echo "todo"
+
 all: install docstring format lint test build run_test run
