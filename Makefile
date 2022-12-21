@@ -26,7 +26,7 @@ run_test:
 	sudo docker run --rm -i hadolint/hadolint < Dockerfile
 run:
 	# run the container
-	sudo docker run -it -p 8888:8888 -e email --rm phylo-exp:latest
+	sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
 remove:
 	# remove file
 	rm updated_data/sequences.fasta 
