@@ -14,15 +14,23 @@ lint:
 test:
 	#test
 	python -m pytest testing/*.py
+run_script:
+	# run script
+	python multifastaloader.py
+	python load_multifasta_metrics.py
 build:
 	# build the container: More important for the CI/CD
-	docker build -t phylo-exp .
+	sudo docker build -t phylo-exp .
 run_test:
 	# linting Dockerfile
-	docker run --rm -i hadolint/hadolint < Dockerfile
+	sudo docker run --rm -i hadolint/hadolint < Dockerfile
 run:
 	# run the container
-	docker run -it -p 9999:9999 --rm phylo-exp:latest
+	sudo docker run -it -p 8888:8888 -e email --rm phylo-exp:latest
+remove:
+	# remove file
+	rm updated_data/sequences.fasta 
+	rm updated_data/sequence_metrics.csv
 deploy:
 	# add step to deploy to cloud provider if any
 	echo "todo"

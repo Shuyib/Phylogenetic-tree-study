@@ -14,22 +14,26 @@ ENV PYTHONUNBUFFERED=TRUE
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# create a virtual environment and activate it
-RUN python3 -m venv phylo-env
+# create a virtual environment
+RUN python3 -m venv phylo-env 
 
 # activate virtual environment
-CMD source phylo-env/bin/activate
+CMD [ "source phylo-env/bin/activate" ]
+
 
 # Install the required libraries
 RUN pip --no-cache-dir install --upgrade pip &&\
-		pip --no-cache-dir install -r requirements.txt
+		pip --no-cache-dir install --requirement requirements.txt
 
-# Make port 1111 available to the world outside this container
-EXPOSE 1111
+
+# Make port 8888 available to the world outside this container
+EXPOSE 8888
 
 # Create mountpoint
 VOLUME /app
 
 # Run jupyter when container launches
-CMD ["jupyter", "notebook", "--ip='*'", "--port=1111", "--no-browser", "--allow-root"]
+CMD ["jupyter", "notebook", "--ip='0.0.0.0'", "--port=8888", "--no-browser", "--allow-root"]
+
+
 
