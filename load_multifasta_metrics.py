@@ -50,6 +50,12 @@ def kmer_frequency(sequence, k=4):
     -------
     List with different permutations of substrings based on k set in the function.
 
+    Example
+    -------
+    >>> kmer_frequency("ACTG", k=2)
+    ['AC', 'CT', 'TG']
+
+
     """
     return [sequence[x : x + k] for x in range(len(sequence) - k + 1)]
 
@@ -66,6 +72,12 @@ def calculate_seq_metrics(multifasta):
     -------
     NoneType
         Pandas.DataFrame
+
+    Example
+    -------
+    >>> calculate_seq_metrics("sequences.fasta")
+    accession_number  length  GC_content  GA_content  AT_content  kmer_frequency
+    0  NC_000913.3    4641652   37.0    40.0    60.0    ['ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'TGA', 'GAA', 'AAA', 'AAT', 'ATC', 'TCA', 'CAA', 'AAG', 'AGA', 'GAT', 'ATG', 'T
 
 
     """
@@ -112,3 +124,8 @@ def calculate_seq_metrics(multifasta):
 if __name__ == "__main__":
     store_df = calculate_seq_metrics("sequences.fasta")
     store_df.to_csv("sequence_metrics.csv")
+    # initialize dvc
+    # os.system("dvc init")
+    # add file tracking with sequences.fasta & sequence_metrics.csv
+    # os.system("dvc add sequences.fasta")
+    # os.system("dvc add sequence_metrics.csv")

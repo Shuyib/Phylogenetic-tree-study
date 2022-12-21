@@ -1,6 +1,6 @@
-'''
+"""
 This script calculates a couple of common bioinformatic metrics. It takes a multifasta file as input and returns a pandas dataframe with the metrics.
-'''
+"""
 
 # Importing the libraries and modules that we are going to use  to retrieve the data from NCBI
 # Required python library: Biopython
@@ -10,6 +10,7 @@ This script calculates a couple of common bioinformatic metrics. It takes a mult
 # 3.os provides functions for interacting with the operating system
 
 import os
+import re
 from Bio import Entrez
 from Bio import SeqIO
 
@@ -38,6 +39,12 @@ def multifastaloader(*accession_numbers):
         Nonetype
     A single multifasta file is returned to the working directory.
 
+    Example
+    -------
+    >>> multifastaloader("NC_000913.3", "NC_000913.3")
+    None
+
+
     """
 
     try:
@@ -56,29 +63,25 @@ def multifastaloader(*accession_numbers):
         print(f"An error occurred: {error_message}")
 
 
-
-accession_no = [
-    "LN871587.1",
-    "FM207520.1",
-    "HF564650.1",
-    "FM207545.1",
-    "AM157442.1",
-    "U01332.1",
-    "LN871587.1",
-    "FM207520.1",
-    "HF564650.1",
-    "FM207545.1",
-    "AM157442.1",
-    "U01332.1",
-    "X07714.1",
-    "AF177667.1",
-    "AF177666.1",
-    "Z47544.1",
-    "X77334.1",
-    "NR_112172.1",
-    "LT599799.2",
-    "KT378441.1",
-]
+def markdown_reader():
+    """
+    This function reads a markdown file in data.md and returns a list of accession numbers
+    using the regular expression [A-Z]{2}\d{6}\.\d{1} to extract the accession numbers from the markdown file
+    remove duplicates from the list of accession numbers
+    """
+    with open("data.md", "r", encoding="UTF-8") as file:
+        data = file.read()
+        accession_numbers = re.findall(r"[A-Z]{2}\d{6}\.\d{1}", data)
+        accession_numbers = list(set(accession_numbers))
+        return accession_numbers
 
 
-multifastaloader(accession_no)
+def main():
+    """This function calls the multifastaloader function and
+    passes the list of accession numbers as input
+    """
+    multifastaloader(*markdown_reader())
+
+
+if __name__ == "__main__":
+    main()
