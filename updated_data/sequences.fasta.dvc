@@ -1,0 +1,4 @@
+outs:
+- md5: 606ada172bfca7fbd76b0bb68771a250
+  size: 38006
+  path: sequences.fasta

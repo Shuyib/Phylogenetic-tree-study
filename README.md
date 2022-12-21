@@ -47,3 +47,19 @@ Run the Docker image
 ```bash
 sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
 ```
+
+# Add data version control
+
+Initialize dvc to the folder.   
+
+```bash
+dvc init
+```  
+
+track changes to the different data files.   
+
+```bash
+dvc add updated_data/data.md
+dvc add updated_data/sequences.fasta
+dvc add updated_data/sequence_metrics.csv
+```  
