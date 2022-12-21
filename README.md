@@ -19,3 +19,14 @@ Setting up your environment
 I've not provided a codebook/data description file since one of the headings cover that in the notebook.
 Otherwise, you can check out the [notebook](https://nbviewer.jupyter.org/github/Shuyib/Phylogenetic-tree-study/blob/master/Phylogenetic_trees_unsupervised_learning.ipynb) or the HTML file i've provided in the repository. 
 
+# How to run the docker  
+
+Build DockerFile  
+```bash
+sudo docker build -t phylo-exp .
+```
+
+Run the Docker image  
+```bash
+sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
+```
