@@ -63,3 +63,9 @@ dvc add updated_data/data.md
 dvc add updated_data/sequences.fasta
 dvc add updated_data/sequence_metrics.csv
 ```  
+
+commit changes.   
+
+```bash
+dvc commit
+```
