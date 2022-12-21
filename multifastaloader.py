@@ -1,3 +1,7 @@
+'''
+This script calculates a couple of common bioinformatic metrics. It takes a multifasta file as input and returns a pandas dataframe with the metrics.
+'''
+
 # Importing the libraries and modules that we are going to use  to retrieve the data from NCBI
 # Required python library: Biopython
 # Required modules:
@@ -14,6 +18,9 @@ from Bio import SeqIO
 # This function grabs your email from your .bashrc file
 # it should look like this to work export email="johndoe@provider.com"
 Entrez.email = os.getenv("email")
+
+# change working directory:
+os.chdir("updated_data")
 
 
 def multifastaloader(*accession_numbers):
@@ -33,15 +40,21 @@ def multifastaloader(*accession_numbers):
 
     """
 
-    for i in accession_numbers:
-        query = Entrez.efetch(db="nucleotide", id=i, rettype="fasta", retmode="text")
-        record = SeqIO.parse(
-            query, "fasta"
-        )  # converting the query to a sequence record in biopython inorder to explore the sequences
+    try:
+        for i in accession_numbers:
+            query = Entrez.efetch(
+                db="nucleotide", id=i, rettype="fasta", retmode="text"
+            )
+            record = SeqIO.parse(
+                query, "fasta"
+            )  # converting the query to a sequence record in biopython inorder to explore the sequences
 
-        # writing the query to a file
-        with open("sequences.fasta", "a", encoding="UTF-8") as multi_fasta:
-            SeqIO.write(record, multi_fasta, "fasta")
+            # writing the query to a file
+            with open("sequences.fasta", "a", encoding="UTF-8") as multi_fasta:
+                SeqIO.write(record, multi_fasta, "fasta")
+    except Exception as error_message:
+        print(f"An error occurred: {error_message}")
+
 
 
 accession_no = [
