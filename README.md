@@ -23,10 +23,10 @@ Otherwise, you can check out the [notebook](https://nbviewer.jupyter.org/github/
 
 Build DockerFile  
 ```bash
-docker build -t phylogenetics-experiment .
+sudo docker build -t phylo-exp .
 ```
 
 Run the Docker image  
 ```bash
-docker run -it -p 9999:9999 phylogenetics-experiment:latest
+sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
 ```
