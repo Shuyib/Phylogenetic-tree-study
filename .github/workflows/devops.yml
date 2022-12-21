@@ -1,0 +1,24 @@
+name: Phylogenetic tree study Continuous Integration/Continuos Delivery
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8.12
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Build Container
+      run: |
+        make build
+    - name: Run Container
+      env: ${{email}}
+      run: |
+        make run_script
+    - name: Remove files
+      run: |
+        rm updated/sequence*
