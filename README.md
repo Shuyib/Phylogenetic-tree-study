@@ -48,7 +48,7 @@ Run the Docker image
 sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
 ```
 
-# Add data version control
+# Add [data version control](https://dvc.org/doc/install)
 
 Initialize dvc to the folder.   
 
