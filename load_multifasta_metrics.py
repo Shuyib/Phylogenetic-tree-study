@@ -124,8 +124,3 @@ def calculate_seq_metrics(multifasta):
 if __name__ == "__main__":
     store_df = calculate_seq_metrics("sequences.fasta")
     store_df.to_csv("sequence_metrics.csv")
-    # initialize dvc
-    # os.system("dvc init")
-    # add file tracking with sequences.fasta & sequence_metrics.csv
-    # os.system("dvc add sequences.fasta")
-    # os.system("dvc add sequence_metrics.csv")
