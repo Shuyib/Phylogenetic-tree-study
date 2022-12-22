@@ -21,10 +21,11 @@ Otherwise, you can check out the [notebook](https://nbviewer.jupyter.org/github/
 i've provided in the repository. 
 
 # How to run in a virtual environment   
-Make the virtual environment. When working in your own system
+Make the virtual environment. When working in your own system   
+
 ```bash
 python3 -m venv phylo-env   
-```  
+```     
 Activate the virtual environment.   
 
 ```bash
@@ -32,21 +33,22 @@ source phylo-env/bin/activate
 ```   
 
 Install packages.  
-```bash
-make install
-```
 
-# How to run the docker  
+```bash
+make install run_script
+```   
+
+# How to run the docker   
 
 Build DockerFile  
 ```bash
 sudo docker build -t phylo-exp .
-```
+```   
 
-Run the Docker image  
+Run the Docker image   
 ```bash
 sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
-```
+```  
 
 # Add [data version control](https://dvc.org/doc/install)
 
@@ -56,7 +58,7 @@ Initialize dvc to the folder.
 dvc init
 ```  
 
-track changes to the different data files.   
+Track changes to the different data files.   
 
 ```bash
 dvc add updated_data/data.md
@@ -64,7 +66,7 @@ dvc add updated_data/sequences.fasta
 dvc add updated_data/sequence_metrics.csv
 ```  
 
-commit changes.   
+Commit changes.   
 
 ```bash
 dvc commit
