@@ -65,9 +65,22 @@ def multifastaloader(*accession_numbers):
 
 def markdown_reader():
     """
-    This function reads a markdown file in data.md and returns a list of accession numbers
-    using the regular expression [A-Z]{2}\d{6}\.\d{1} to extract the accession numbers from the markdown file
-    remove duplicates from the list of accession numbers
+     This function reads a markdown file in data.md and returns a list of accession numbers
+    
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    list
+        A list of accession numbers
+
+    Example
+    -------
+    >>> markdown_reader()
+    ['NC_000913.3', 'NC_000913.3']
+    
     """
     with open("data.md", "r", encoding="UTF-8") as file:
         data = file.read()
@@ -77,9 +90,6 @@ def markdown_reader():
 
 
 def main():
-    """This function calls the multifastaloader function and
-    passes the list of accession numbers as input
-    """
     multifastaloader(*markdown_reader())
 
 
