@@ -18,7 +18,7 @@ from Bio import SeqIO
 # To use NCBI'S E-Utilities you must specify your email address with each request
 # This function grabs your email from your .bashrc file
 # it should look like this to work export email="johndoe@provider.com"
-Entrez.email = os.getenv("email")
+Entrez.email = os.getenv("EMAIL")
 
 # change working directory:
 os.chdir("updated_data")
