@@ -87,7 +87,7 @@ Q: What are nitrogenous bases?
 A: Adenine, Guanine, Cytosine and Thymine (Uracil, if in messanger ribonucleic acid form). These are the building blocks of DNA (Deoxyribonucleic acid) or the variant (Ribonucleic acid). Notice the sugar is how distinguish them deoxyribose and ribose. 
 
 Q: What is 16S rRNA (ribosomal ribonucleic acid)?
-A: It is component of the 30S subunit of the prokaryotic ribosome. It consists about 1500 nucleotides. It possesses a conserved and variable region which is important in Phylogenetic studies due to [slow evolution of the area.](https://en.wikipedia.org/wiki/16S_ribosomal_RNA) Similar regions of interest in other organisms are ITS for fungi, 18S for microbial eukaryotes and for you + me 28S and 18S fragments.   
+A: It is component of the 30S subunit of the prokaryotic ribosome. It consists about 1500 nucleotides. It possesses a conserved and variable region which is important in Phylogenetic studies due to [slow evolution of the area.](https://en.wikipedia.org/wiki/16S_ribosomal_RNA) Similar regions of interest in other organisms are Internal transcribed spacer for fungi, 18S for microbial eukaryotes and for you + me 28S and 18S fragments.   
 
 Q: What are GC and GA content?
 A: These are common bioinformatic metrics that can enable us to find out the origin of a DNA we don't know the origin of. Higher GC content could mean contamination of a sample with a microbe. For most organisms its about 50 percent with some exceptions in some areas. Read [more.](https://rosalind.info/glossary/gc-content/)  
