@@ -73,3 +73,7 @@ Commit changes to save the changes that have occured in the repository.
 ```bash
 dvc commit
 ```
+
+# FAQ
+Q: What is a phylogenetic tree (aka phylogeny)? 
+A: According to [Baum in Nature](https://www.nature.com/scitable/topicpage/reading-a-phylogenetic-tree-the-meaning-of-41956/#), this is a diagram that shows lines of evolutionary descent of different species, organisms or genes from a common ancestor. It is useful for organizing knowledge of biological diversity, for structuring classifications, or understanding evolutionary events.
