@@ -18,6 +18,5 @@ https://www2.ib.unicamp.br/profs/sfreis/SistematicaMolecular/Aula08MetodosMatriz
 https://en.wikipedia.org/wiki/Streptococcus_pneumoniae retrieved Thu Feb 15 15:34:12 EAT 2018
 https://en.wikipedia.org/wiki/Klebsiella_pneumoniae retrieved Thu Feb 15 15:35:22 EAT 2018
 https://en.wikipedia.org/wiki/Acinetobacter_baumannii retrieved Thu Feb 15 15:35:22 EAT 2018
-
-
+Fabian A. Buske, Mikael Bodén, Denis C. Bauer and Timothy L. Bailey, "Assigning roles to DNA regulatory motifs using comparative genomics", Bioinformatics, 26(7), 860-866, 2010. [full text] retrieved Thu Dec 22 11:34:11 AM EAT 2022
 
