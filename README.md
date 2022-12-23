@@ -60,7 +60,7 @@ Initialize dvc to the folder. To allow us to use dvc functionality to be used in
 dvc init
 ```  
 
-Track changes to the different data files. The reason why we are doing this is because these files will change during the experiment especially if the investigator want to try other experiments with more data.   
+Track changes to the different data files. The reason why we are doing this is because these files will change during the experiment especially if the investigator wants to try other experiments with more data.   
 
 ```bash
 dvc add updated_data/data.md
