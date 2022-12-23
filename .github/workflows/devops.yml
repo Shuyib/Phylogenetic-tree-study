@@ -1,4 +1,4 @@
-name: Phylogenetic tree study Continuous Integration/Continuos Delivery
+name: CI/CD 
 on: [push]
 jobs:
   build:
