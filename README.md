@@ -1,4 +1,6 @@
+[![Phylogenetic tree study Continuous Integration/Continuos Delivery](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml/badge.svg)](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml)
 # Phylogenetic-tree-study
+
 Estimating Phylogenetic trees using six microorganisms 16S rRNA gene with Unsupervised Learning, web based tools and Molecular Evolutionary Genetics Analysis MEGA7
 
 Setting up your environment
