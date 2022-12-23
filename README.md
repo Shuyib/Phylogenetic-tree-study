@@ -78,4 +78,19 @@ dvc commit
 
 # FAQ
 Q: What is a phylogenetic tree (aka phylogeny)? 
-A: According to [Baum in Nature](https://www.nature.com/scitable/topicpage/reading-a-phylogenetic-tree-the-meaning-of-41956/#), this is a diagram that shows lines of evolutionary descent of different species, organisms or genes from a common ancestor. It is useful for organizing knowledge of biological diversity, for structuring classifications, or understanding evolutionary events.
+A: According to [Baum in Nature](https://www.nature.com/scitable/topicpage/reading-a-phylogenetic-tree-the-meaning-of-41956/#), this is a diagram that shows lines of evolutionary descent of different species, organisms or genes from a common ancestor. It is useful for organizing knowledge of biological diversity, for structuring classifications, or understanding evolutionary events.   
+
+Q: What is antimicrobial resistance?
+A: This is when a microorganism is no longer sensitive to action of antibiotics. Antibiotics are compounds produced by the natural metabollic processes of microbes for instance fungi that kill or inhibit other microbes. Key people who discovered the first named them are Alexander Fleming & Selman Waksman. Now, these microbes are not affected by these antibiotics and they can lose/gain function via misspelling their genetic material to also bypass the mechanism of action of antibiotics.Some microbes can also share genes and may get this resistance via horizontal gene transfer.   
+
+Q: What are nitrogenous bases?
+A: Adenine, Guanine, Cytosine and Thymine (Uracil, if in messanger ribonucleic acid form). These are the building blocks of DNA (Deoxyribonucleic acid) or the variant (Ribonucleic acid). Notice the sugar is how distinguish them deoxyribose and ribose. 
+
+Q: What is 16S rRNA (ribosomal ribonucleic acid)?
+A: It is component of the 30S subunit of the prokaryotic ribosome. It consists about 1500 nucleotides. It possesses a conserved and variable region which is important in Phylogenetic studies due to [slow evolution of the area.](https://en.wikipedia.org/wiki/16S_ribosomal_RNA) Similar regions of interest in other organisms are ITS for fungi, 18S for microbial eukaryotes and for you + me 28S and 18S fragments.   
+
+Q: What are GC and GA content?
+A: These are common bioinformatic metrics that can enable us to find out the origin of a DNA we don't know the origin of. Higher GC content could mean contamination of a sample with a microbe. For most organisms its about 50 percent with some exceptions in some areas. Read [more.](https://rosalind.info/glossary/gc-content/)  
+
+Q: What are Kmers?
+A: A nucleotide sequence of a certain length. Read more [here](https://www.biostars.org/p/286438/) & [here.](https://rosalind.info/glossary/k-mer-composition/)
