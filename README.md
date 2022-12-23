@@ -3,7 +3,7 @@
 
 Estimating Phylogenetic trees using 30 microorganisms (previously 6 organisms: review [data folder](https://github.com/Shuyib/Phylogenetic-tree-study/tree/master/data) and [notebook](https://github.com/Shuyib/Phylogenetic-tree-study/blob/master/Phylogenetic_trees_unsupervised_learning.ipynb). Looking at the 16S rRNA gene with Unsupervised Learning, web based tools and Molecular Evolutionary Genetics Analysis MEGA7. Further we are looking at motifs and finding out what they do.
 
-It is important to know these regions since they can potentially give use clues about the regions we can target for targeted DNA studies.
+It is important to know these regions since they can potentially give use clues about the regions we can target for targeted DNA therapies.
 
 Setting up your environment
 ---
