@@ -16,7 +16,8 @@ jobs:
       run: |
         make build
     - name: Run Container
-      env: ${{EMAIL}}
+      env: 
+        EMAIL: $EMAIL 
       run: |
         make run_script
     - name: Remove files
