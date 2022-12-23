@@ -1,7 +1,9 @@
 [![Phylogenetic tree study Continuous Integration/Continuos Delivery](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml/badge.svg)](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml)
 # Phylogenetic-tree-study
 
-Estimating Phylogenetic trees using six microorganisms 16S rRNA gene with Unsupervised Learning, web based tools and Molecular Evolutionary Genetics Analysis MEGA7
+Estimating Phylogenetic trees using 30 microorganisms (previously 6 organisms: review [data folder](https://github.com/Shuyib/Phylogenetic-tree-study/tree/master/data) and [notebook](https://github.com/Shuyib/Phylogenetic-tree-study/blob/master/Phylogenetic_trees_unsupervised_learning.ipynb) 16S rRNA gene with Unsupervised Learning, web based tools and Molecular Evolutionary Genetics Analysis MEGA7. Further we are looking at motifs and finding out what they do.
+
+It is important to know these regions since they can potentially give use clues about the regions we can target for targeted DNA studies.
 
 Setting up your environment
 ---
@@ -73,3 +75,7 @@ Commit changes to save the changes that have occured in the repository.
 ```bash
 dvc commit
 ```
+
+# FAQ
+Q: What is a phylogenetic tree (aka phylogeny)? 
+A: According to [Baum in Nature](https://www.nature.com/scitable/topicpage/reading-a-phylogenetic-tree-the-meaning-of-41956/#), this is a diagram that shows lines of evolutionary descent of different species, organisms or genes from a common ancestor. It is useful for organizing knowledge of biological diversity, for structuring classifications, or understanding evolutionary events.
