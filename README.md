@@ -52,13 +52,13 @@ sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
 
 # Add [data version control](https://dvc.org/doc/install)
 
-Initialize dvc to the folder.   
+Initialize dvc to the folder. To allow us to use dvc functionality to be used in the repo. NB. files will be created in the directory.    
 
 ```bash
 dvc init
 ```  
 
-Track changes to the different data files.   
+Track changes to the different data files. The reason why we are doing this is because these files will change during the experiment especially if the investigator want to try other experiments with more data.   
 
 ```bash
 dvc add updated_data/data.md
@@ -66,7 +66,7 @@ dvc add updated_data/sequences.fasta
 dvc add updated_data/sequence_metrics.csv
 ```  
 
-Commit changes.   
+Commit changes to save the changes that have occured in the repository.     
 
 ```bash
 dvc commit
