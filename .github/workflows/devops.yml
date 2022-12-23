@@ -22,4 +22,4 @@ jobs:
         make run_script
     - name: Remove files
       run: |
-        rm updated/sequence*
+        rm updated_data/sequence*
