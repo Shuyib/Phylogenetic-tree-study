@@ -94,3 +94,6 @@ A: These are common bioinformatic metrics that can enable us to find out the ori
 
 Q: What are Kmers?
 A: A nucleotide sequence of a certain length. Read more [here](https://www.biostars.org/p/286438/) & [here.](https://rosalind.info/glossary/k-mer-composition/)
+
+Q: What are motifs?
+A: patterns/regions which are conserved over evolutionary time and are presumed to be important in function / biologically important region of a protein. N.B the sequences we are using are especially crucial for searching for these regions which we can study further.   
