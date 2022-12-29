@@ -59,14 +59,14 @@ def multifastaloader(*accession_numbers):
             # writing the query to a file
             with open("sequences.fasta", "a", encoding="UTF-8") as multi_fasta:
                 SeqIO.write(record, multi_fasta, "fasta")
-    except Exception as error_message:
-        print(f"An error occurred: {error_message}")
+    except UserWarning as error:
+        print(f"An error occurred: {error}")
 
 
 def markdown_reader():
     """
-     This function reads a markdown file in data.md and returns a list of accession numbers
-    
+    This function reads a markdown file in data.md and returns a list of accession numbers
+
     Parameters
     ----------
     None
@@ -80,7 +80,7 @@ def markdown_reader():
     -------
     >>> markdown_reader()
     ['NC_000913.3', 'NC_000913.3']
-    
+
     """
     with open("data.md", "r", encoding="UTF-8") as file:
         data = file.read()
@@ -90,6 +90,7 @@ def markdown_reader():
 
 
 def main():
+    """runs the multifastaloader function and the markdown_reader function"""
     multifastaloader(*markdown_reader())
 
 
