@@ -1,4 +1,7 @@
 [![Phylogenetic tree study Continuous Integration/Continuos Delivery](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml/badge.svg)](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Shuyib/Phylogenetic-tree-study/HEAD)
+
 # Phylogenetic-tree-study
 
 Estimating Phylogenetic trees using 30 microorganisms (previously 6 organisms: review [data folder](https://github.com/Shuyib/Phylogenetic-tree-study/tree/master/data) and [notebook](https://github.com/Shuyib/Phylogenetic-tree-study/blob/master/Phylogenetic_trees_unsupervised_learning.ipynb). Looking at the 16S rRNA gene with Unsupervised Learning, web based tools and Molecular Evolutionary Genetics Analysis MEGA7. Further we are looking at motifs and finding out what they do.
