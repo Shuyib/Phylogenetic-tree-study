@@ -93,7 +93,7 @@ Q: What are GC and GA content?
 A: These are common bioinformatic metrics that can enable us to find out the origin of a DNA we don't know the origin of. Higher GC content could mean contamination of a sample with a microbe. For most organisms its about 50 percent with some exceptions in some areas. Read [more.](https://rosalind.info/glossary/gc-content/)  
 
 Q: What are Kmers?
-A: A nucleotide sequence of a certain length. Read more [here](https://www.biostars.org/p/286438/) & [here.](https://rosalind.info/glossary/k-mer-composition/)
+A: A nucleotide sequence of a certain length. Read more [here](https://www.biostars.org/p/286438/) & [here.](https://rosalind.info/glossary/k-mer-composition/) They are important for the read assembly problem that is, moving from small reads then bringing them together using graphs.  
 
 Q: What are motifs?
 A: patterns/regions which are conserved over evolutionary time and are presumed to be important in function / biologically important region of a protein. N.B the sequences we are using are especially crucial for searching for these regions which we can study further.   
