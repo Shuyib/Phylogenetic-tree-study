@@ -1,0 +1,37 @@
+Uniprot query 1
+
+curl --form 'email=<enter_your_email_here>' \
+     --form 'program=blastx' \
+     --form 'matrix=BLOSUM80' \
+     --form 'alignments=250' \
+     --form 'scores=250' \
+     --form 'exp=10' \
+     --form 'filter=F' \
+     --form 'gapalign=true' \
+     --form 'compstats=F' \
+     --form 'align=0' \
+     --form 'stype=dna' \
+     --form 'sequence=>KU843843.1_site_1 offset= 405
+ATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCTGGTCTTGACATC
+' \
+     --form 'database=uniprotkb_refprotswissprot' \
+     https://www.ebi.ac.uk/Tools/services/rest/ncbiblast/run
+     
+     
+Uniprot query 2
+curl --form 'email=<enter_your_email_here>' \
+     --form 'program=blastx' \
+     --form 'matrix=BLOSUM80' \
+     --form 'alignments=250' \
+     --form 'scores=250' \
+     --form 'exp=10' \
+     --form 'filter=F' \
+     --form 'gapalign=true' \
+     --form 'compstats=F' \
+     --form 'align=0' \
+     --form 'stype=dna' \
+     --form 'sequence=>KM281506.1_site_1 offset= 625
+GTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACC
+' \
+     --form 'database=uniprotkb_refprotswissprot' \
+     https://www.ebi.ac.uk/Tools/services/rest/ncbiblast/run
