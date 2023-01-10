@@ -1,0 +1,25 @@
+Hit	DB	Accession	Description	Organism	Length	Score(Bits)	Identities(%)	Positives(%)	E()
+1	TR	A0A6A5LBB5	Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00014961 PE=4 SV=1	Lupinus albus	130	82	87.5	93.8	0.011
+2	TR	A0A6A5LBY6	Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00014750 PE=4 SV=1	Lupinus albus	132	82	87.5	93.8	0.011
+3	TR	A0A8J2XI04	Uncharacterized protein OS=Compostibacillus humi OX=1245525 GN=GCM10010978_33320 PE=4 SV=1	Compostibacillus humi	49	76	86.7	93.3	0.037
+4	TR	A0A6A5L0V1	Movement protein OS=Lupinus albus OX=3870 GN=Lal_00008066 PE=4 SV=1	Lupinus albus	470	78	75.0	93.8	0.044
+5	TR	A0A8J3A029	Uncharacterized protein OS=Pullulanibacillus pueri OX=1437324 GN=GCM10007096_43160 PE=4 SV=1	Pullulanibacillus pueri	51	75	80.0	93.3	0.057
+6	TR	A0A1B8WEY0	TNase-like domain-containing protein OS=Bacillus sp. FJAT-26390 OX=1743142 GN=A7975_32355 PE=4 SV=1	Bacillus sp. FJAT-26390	124	75	80.0	93.3	0.13
+7	TR	A0A6A5LIE2	Alpha/beta hydrolase OS=Lupinus albus OX=3870 GN=Lal_00014923 PE=4 SV=1	Lupinus albus	1074	72	87.5	93.8	0.36
+8	TR	A0A6A5LI01	DUF4080 domain-containing protein OS=Lupinus albus OX=3870 GN=Lal_00014773 PE=4 SV=1	Lupinus albus	1020	72	87.5	93.8	0.36
+9	TR	A0A6A5LF26	Transmembrane protein OS=Lupinus albus OX=3870 GN=Lal_00014975 PE=4 SV=1	Lupinus albus	744	72	87.5	93.8	0.36
+10	TR	A0A6A5LFJ6	Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00015068 PE=4 SV=1	Lupinus albus	389	72	87.5	93.8	0.36
+11	TR	A0A0J7YMC9	TYR_PHOSPHATASE_2 domain-containing protein (Fragment) OS=Beta vulgaris subsp. vulgaris OX=3555 GN=BVRB_042720 PE=4 SV=1	Beta vulgaris subsp. vulgaris	57	70	80.0	86.7	0.44
+12	TR	A0A6A5L394	Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00013077 PE=4 SV=1	Lupinus albus	343	71	76.9	100.0	0.51
+13	TR	B0TIG5	Secreted protein OS=Heliobacterium modesticaldum (strain ATCC 51547 / Ice1) OX=498761 GN=HM1_3148 PE=4 SV=1	Heliobacterium modesticaldum (strain ATCC 51547 / Ice1)	113	71	92.9	92.9	0.52
+14	TR	A0A078KPZ5	Ala_racemase_N domain-containing protein OS=[Clostridium] cellulosi OX=29343 GN=CCDG5_0091 PE=4 SV=1	[Clostridium] cellulosi	51	69	86.7	93.3	0.55
+15	TR	D9WK81	Uncharacterized protein OS=Streptomyces himastatinicus ATCC 53653 OX=457427 GN=SSOG_05329 PE=4 SV=1	Streptomyces himastatinicus ATCC 53653	64	69	86.7	86.7	0.73
+16	TR	A0A0J8BFW9	Uncharacterized protein (Fragment) OS=Beta vulgaris subsp. vulgaris OX=3555 GN=BVRB_017580 PE=4 SV=1	Beta vulgaris subsp. vulgaris	62	68	86.7	93.3	1.0
+17	TR	A6P025	Uncharacterized protein OS=Pseudoflavonifractor capillosus ATCC 29799 OX=411467 GN=BACCAP_03832 PE=4 SV=1	Pseudoflavonifractor capillosus ATCC 29799	117	67	86.7	93.3	2.1
+18	TR	T0NDG4	RNA polymerase II largest subunit (Fragment) OS=Clostridium sp. BL8 OX=1354301 GN=M918_24875 PE=4 SV=1	Clostridium sp. BL8	41	63	80.0	86.7	4.0
+19	TR	A0A140KZA9	MOSC domain-containing protein OS=Fervidicola ferrireducens OX=520764 GN=AN618_24790 PE=4 SV=1	Fervidicola ferrireducens	51	63	80.0	86.7	5.2
+20	TR	A0A6A5L1L6	Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00003837 PE=4 SV=1	Lupinus albus	190	64	86.7	86.7	5.9
+21	TR	A0A6A5L0N1	Uncharacterized protein ycf68 OS=Lupinus albus OX=3870 GN=Lal_00008061 PE=3 SV=1	Lupinus albus	180	64	73.3	86.7	5.9
+22	TR	A0A6A5L4S8	Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00002526 PE=4 SV=1	Lupinus albus	137	64	73.3	86.7	6.0
+23	TR	A0A0J7YLN1	Glyco_hydro_cc domain-containing protein (Fragment) OS=Beta vulgaris subsp. vulgaris OX=3555 GN=BVRB_019370 PE=4 SV=1	Beta vulgaris subsp. vulgaris	55	62	68.8	81.2	8.3
+24	TR	A0A6A5LIQ9	Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00015049 PE=4 SV=1	Lupinus albus	187	63	80.0	86.7	8.4
