@@ -7,25 +7,6 @@ Estimating Phylogenetic trees using 30 microorganisms (previously 6 organisms: r
 
 It is important to know these regions since they can potentially give use clues about the regions we can target for targeted DNA therapies.
 
-Setting up your environment
----
-* Download Anaconda for your operating system for Python 3 [anaconda](https://www.anaconda.com/download/)
-* Create a conda environment like mine:
-
-  `conda env create -f environment.yml`
-
-  This creates an environment called py35. Activate it with this command in your terminal
-
-  `source activate py35`
-
-* In your terminal, in the directory where you cloned this repository. Run this command
-
-  `jupyter notebook Phylogenetic_trees_unsupervised_learning.ipynb`
-
-I've not provided a codebook/data description file since one of the headings cover that in the notebook.
-Otherwise, you can check out the [notebook](https://nbviewer.jupyter.org/github/Shuyib/Phylogenetic-tree-study/blob/master/Phylogenetic_trees_unsupervised_learning.ipynb) or the HTML file 
-i've provided in the repository. 
-
 # How to run in a virtual environment   
 Make the virtual environment. When working in your own system   
 
@@ -44,7 +25,17 @@ Install packages.
 make install run_script
 ```   
 
-# How to run the docker   
+In your terminal, in the directory where you cloned this repository. Run this command to run notebooks.   
+
+```bash
+jupyter notebook Phylogenetic_trees_unsupervised_learning.ipynb
+```
+
+Previously, we've not provided a codebook/data description file since one of the headings cover that in the notebook.
+Otherwise, you can check out the [notebook](https://nbviewer.jupyter.org/github/Shuyib/Phylogenetic-tree-study/blob/master/Phylogenetic_trees_unsupervised_learning.ipynb) or the HTML file 
+i've provided in the repository.    
+
+# How to run project in Docker
 
 Build DockerFile  
 ```bash
