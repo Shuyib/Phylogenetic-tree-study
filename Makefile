@@ -1,38 +1,70 @@
-install:
-	#install requirements
-	pip --no-cache-dir install --upgrade pip &&\
-		pip --no-cache-dir install -r requirements.txt	
-format:
+# .ONESHELL tells make to run each recipe line in a single shell
+.ONESHELL:
+
+# .DEFAULT_GOAL tells make which target to run when no target is specified
+.DEFAULT_GOAL := all
+
+# Specify python location in virtual environment
+# Specify pip location in virtual environment
+PYTHON := .venv/bin/python3
+PIP := .venv/bin/pip3
+
+venv/bin/activate: requirements.txt
+	# create virtual environment
+	python3 -m venv .venv
+	# make command executable
+	chmod +x .venv/bin/activate
+	# activate virtual environment
+	. .venv/bin/activate
+  
+activate:
+	# activate virtual environment
+	. .venv/bin/activate
+
+install: venv/bin/activate requirements.txt # prerequisite
+	# install commands
+	$(PIP) --no-cache-dir install --upgrade pip &&\
+		$(PIP) --no-cache-dir install -r requirements.txt
+format: activate install
 	#format code
 	black *.py utils/*.py testing/*.py
-docstring:
+clean: 
+	# clean directory of cache files, virtual environment, and data
+	rm -rf __pycache__ &&\
+	rm -rf utils/__pycache__ &&\
+	rm -rf testing/__pycache__ &&\
+	rm -rf .pytest_cache &&\
+	rm -rf .venv &&\
+	rm updated_data/sequences.fasta 
+	rm updated_data/sequence_metrics.csv
+docstring: activate install
 	# format docstring
 	pyment -w -o numpydoc *.py
-lint:
+lint: activate install format
 	#flake8 or #pylint
 	pylint --disable=R,C --errors-only *.py utils/*.py testing/*.py
-test:
+test: activate install format lint
 	#test
 	python -m pytest testing/*.py
-run_script:
+run_script: activate install format 
 	# run script
 	python multifastaloader.py
 	python load_multifasta_metrics.py
-build:
+docker_build: Dockerfile requirements.txt docker_run_test
 	# build the container: More important for the CI/CD
 	sudo docker build -t phylo-exp .
-run_test:
+docker_run_test: Dockerfile
 	# linting Dockerfile
 	sudo docker run --rm -i hadolint/hadolint < Dockerfile
-run:
+docker_run: docker_build 
 	# run the container
 	sudo docker run -it -p 8888:8888 --rm phylo-exp:latest
-remove:
-	# remove file
-	rm updated_data/sequences.fasta 
-	rm updated_data/sequence_metrics.csv
 deploy:
 	# add step to deploy to cloud provider if any
 	echo "todo"
 
-all: install docstring format lint test build run_test run
+# .PHONY tells make that these targets do not represent actual files
+.PHONY: activate format clean lint test build run docker_build docker_run docker_push docker_clean docker_run_test
+
+# what all steps to run
+all: install docstring format lint test docker_build docker_run
