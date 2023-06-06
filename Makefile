@@ -21,15 +21,15 @@ activate:
 	# activate virtual environment
 	. .venv/bin/activate
 
-install: venv/bin/activate requirements.txt # prerequisite
+install: requirements.txt # prerequisite
 	# install commands
 	# in local use
-	# $(PIP) install --upgrade pip &&\
-	# $(PIP) install -r requirements.txt
+	# $(PIP) install --no-cache-dir --upgrade pip &&\
+	# $(PIP) install --no-cache-dir -r requirements.txt
 	pip --no-cache-dir install --upgrade pip &&\
 		pip --no-cache-dir install -r requirements.txt
 
-format: activate install
+format: install
 	#format code
 	black *.py utils/*.py testing/*.py
 clean: 
@@ -54,7 +54,7 @@ run_script: activate install format
 	# run script
 	python multifastaloader.py
 	python load_multifasta_metrics.py
-docker_build: Dockerfile requirements.txt docker_run_test
+docker_build: Dockerfile requirements.txt 
 	# build the container: More important for the CI/CD
 	sudo docker build -t phylo-exp .
 docker_run_test: Dockerfile
