@@ -50,7 +50,7 @@ lint: activate install format
 test: activate install format lint
 	#test
 	python -m pytest testing/*.py
-run_script: activate install format 
+run_script: install format 
 	# run script
 	python multifastaloader.py
 	python load_multifasta_metrics.py
