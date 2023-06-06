@@ -25,7 +25,7 @@ install: venv/bin/activate requirements.txt # prerequisite
 	# install commands
 	$(PIP) --no-cache-dir install --upgrade pip &&\
 		$(PIP) --no-cache-dir install -r requirements.txt
-format: activate install
+format: 
 	#format code
 	black *.py utils/*.py testing/*.py
 clean: 
