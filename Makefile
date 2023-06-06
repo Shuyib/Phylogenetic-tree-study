@@ -23,8 +23,12 @@ activate:
 
 install: venv/bin/activate requirements.txt # prerequisite
 	# install commands
-	$(PIP) --no-cache-dir install --upgrade pip &&\
-		$(PIP) --no-cache-dir install -r requirements.txt
+	# in local use
+	# $(PIP) install --upgrade pip &&\
+	# $(PIP) install -r requirements.txt
+	pip --no-cache-dir install --upgrade pip &&\
+		pip --no-cache-dir install -r requirements.txt
+
 format: activate install
 	#format code
 	black *.py utils/*.py testing/*.py
