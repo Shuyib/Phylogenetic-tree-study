@@ -3,4 +3,5 @@ __pycache__
 .dockerignore
 .ipynb_checkpoints
 docker-compose.yml
+.venv
 
