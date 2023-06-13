@@ -1,5 +1,5 @@
 # Use latest Python runtime as a parent image
-FROM python:3.8.13-slim-buster
+FROM python:3.8.16-slim-buster
 
 # Meta-data
 LABEL maintainer="Shuyib" \
@@ -14,17 +14,11 @@ ENV PYTHONUNBUFFERED=TRUE
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# create a virtual environment
-RUN python3 -m venv phylo-env 
-
-# activate virtual environment
-CMD [ "source phylo-env/bin/activate" ]
-
-
-# Install the required libraries
-RUN pip --no-cache-dir install --upgrade pip &&\
-		pip --no-cache-dir install --requirement requirements.txt
-
+# create a virtual environment, activate it and install the required libraries
+RUN python3 -m venv phylo-env &&\
+            . phylo-env/bin/activate &&\
+            pip --no-cache-dir install --upgrade pip &&\
+            pip --no-cache-dir install --requirement requirements.txt
 
 # Make port 8888 available to the world outside this container
 EXPOSE 8888
@@ -33,7 +27,7 @@ EXPOSE 8888
 VOLUME /app
 
 # Run jupyter when container launches
-CMD ["jupyter", "notebook", "--ip='0.0.0.0'", "--port=8888", "--no-browser", "--allow-root"]
+CMD ["jupyter", "notebook", "--ip='0.0.0.0'", "--port=9999", "--no-browser", "--allow-root"]
 
 
 
