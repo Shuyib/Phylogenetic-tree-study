@@ -1,5 +1,12 @@
 """
 Python utility module to calculate a couple of sequence identification metrics.
+
+They include:
+    - GC content: % of Guanine and Cytosine in the given sequence
+    - GA content: % of Guanine and Adenine in the given sequence
+    - kmer frequency: number of substrings of length k in a fasta sequence.
+    - calculate_seq_metrics: a function that calculates a couple of common bioinformatic metrics.
+    
 """
 import os  # operating system module
 from Bio import SeqIO  # manipulation of sequences
