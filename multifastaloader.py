@@ -1,5 +1,10 @@
 """
-This script calculates a couple of common bioinformatic metrics. It takes a multifasta file as input and returns a pandas dataframe with the metrics.
+This script calculates a couple of common bioinformatic metrics. 
+It takes a multifasta file as input and returns a pandas dataframe with the metrics.
+
+In other words, it is a dataloading scripts that returns a fasta file with the sequences.
+
+the file is called sequences.fasta and is saved in the updated_data folder.
 """
 
 # Importing the libraries and modules that we are going to use  to retrieve the data from NCBI
@@ -92,6 +97,7 @@ def markdown_reader():
 def main():
     """runs the multifastaloader function and the markdown_reader function"""
     multifastaloader(*markdown_reader())
+
 
 
 if __name__ == "__main__":
