@@ -65,8 +65,11 @@ cosine_similarity_df["accession_id"] = df2
 cosine_similarity_df["label_encoded"] = df["accession_id"]
 cosine_similarity_df = cosine_similarity_df[["accession_id", "label_encoded", "cosine_similarity_average"]]
 
+# remove duplicate rows
+cosine_similarity_df = cosine_similarity_df.drop_duplicates("accession_id")
+
 # saving the cosine similarity matrix as a csv file
-cosine_similarity_df.to_csv("updated_data/cosine_similarity.csv")
+cosine_similarity_df.to_csv("cosine_similarity.csv")
 
 # how to interpret the cosine similarity scores
 # 0.0 - 0.2 : low similarity
