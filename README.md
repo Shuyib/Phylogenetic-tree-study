@@ -19,7 +19,7 @@ Activate the virtual environment.
 source phylo-env/bin/activate   
 ```   
 
-Install packages.  
+Install packages. You need an email to be in your .bashrc file to run biopython.   
 
 ```bash
 make install run_script
