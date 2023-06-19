@@ -42,14 +42,14 @@ padded = pad_sequences(df["sequence_split"], padding="post")
 df["padded"] = padded.tolist()
 
 # cosine similarity: a measure of similarity between two non-zero vectors of an inner product space
-cosine_similarity = cosine_similarity(df["padded"].tolist())
+cosine_sim_list = cosine_similarity(df["padded"].tolist())
 
 # get the average cosine similarity score for each sequence
 # why? because cosine similarity returns a matrix where each row represents the similarity of one sequence to all other sequences
-cosine_similarity = cosine_similarity.mean(axis=1)
+cosine_sim_list = cosine_sim_list.mean(axis=1)
 
 # converting the cosine similarity matrix to a dataframe and adding the accession id as the index
-cosine_similarity_df = pd.DataFrame(cosine_similarity, index=df["accession_id"])
+cosine_similarity_df = pd.DataFrame(cosine_sim_list, index=df["accession_id"])
 
 # resetting the index
 cosine_similarity_df = cosine_similarity_df.reset_index()
