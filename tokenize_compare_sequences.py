@@ -104,6 +104,8 @@ if __name__ == "__main__":
     cosine_simulation("sequence_metrics.csv", "5mers", "cosine_similarity_5_mer.csv")
     # 6-mer sequence comparison
     cosine_simulation("sequence_metrics.csv", "6mers", "cosine_similarity_6_mer.csv")
+    # 9-mer sequence comparison
+    cosine_simulation("sequence_metrics.csv", "9mers", "cosine_similarity_9_mer.csv")
 
 
 # how to interpret the cosine similarity scores
