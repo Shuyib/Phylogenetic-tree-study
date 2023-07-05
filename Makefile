@@ -51,7 +51,8 @@ test: activate install format lint
 	#test
 	python -m pytest testing/*.py
 run_script:
-	# run script
+	# run script: load fasta, create sequence_metrics
+	# calculate cosine similiarity averages
 	python multifastaloader.py
 	python load_multifasta_metrics.py
 	python tokenize_compare_sequences.py
