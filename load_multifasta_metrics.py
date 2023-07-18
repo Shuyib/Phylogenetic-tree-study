@@ -125,6 +125,9 @@ def calculate_seq_metrics(multifasta):
             dataframe["6mers"] = dataframe["sequence"].map(
                 lambda x: kmer_frequency(sequence=x, k=6)
             )
+            dataframe["9mers"] = dataframe["sequence"].map(
+                lambda x: kmer_frequency(sequence=x, k=9)
+            )
         return dataframe
 
 
