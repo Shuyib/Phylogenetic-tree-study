@@ -12,7 +12,7 @@ jupyter==1.0.0
 biopython==1.78
 pylint==2.15.9
 pytest==7.2.0
-black==22.12.0
+black==24.3.0
 traitlets>5
 scikit-learn==1.2.2
 tensorflow==2.12.0
