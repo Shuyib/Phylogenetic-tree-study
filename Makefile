@@ -31,7 +31,7 @@ install: requirements.txt # prerequisite
 
 format: install
 	#format code
-	black *.py utils/*.py testing/*.py
+	$(PYTHON) black *.py utils/*.py testing/*.py
 clean: 
 	# clean directory of cache files, virtual environment, and data
 	rm -rf __pycache__ &&\
@@ -46,7 +46,7 @@ docstring: activate install
 	pyment -w -o numpydoc *.py
 lint: activate install format
 	#flake8 or #pylint
-	pylint --disable=R,C --errors-only *.py utils/*.py testing/*.py
+	$(PYTHON) pylint --disable=R,C --errors-only *.py utils/*.py testing/*.py
 test: activate install format lint
 	#test
 	python -m pytest testing/*.py
