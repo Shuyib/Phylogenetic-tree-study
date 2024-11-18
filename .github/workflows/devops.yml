@@ -1,5 +1,5 @@
 name: CI/CD 
-on: [push]
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,33 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
     - name: Install dependencies
       run: |
         make install
+      continue-on-error: false
+    - name: Lint code
+      run: |
+        make lint
     - name: Build Container
       run: |
         make build
     - name: Run Container
       env: 
-        EMAIL: $EMAIL 
+        EMAIL: ${{ secrets.EMAIL }}
       run: |
         make run_script
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: sequence-files
+        path: updated_data/sequence*
     - name: Remove files
       run: |
         rm updated_data/sequence*
