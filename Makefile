@@ -16,10 +16,12 @@ venv/bin/activate: requirements.txt
 	chmod +x .venv/bin/activate
 	# activate virtual environment
 	. .venv/bin/activate
-  
+
 activate:
-	# activate virtual environment
-	. .venv/bin/activate
+    # check if virtual environment exists, create if not
+    @if [ ! -d ".venv" ]; then make venv/bin/activate; fi
+    # activate virtual environment
+    . .venv/bin/activate
 
 install: requirements.txt # prerequisite
 	# install commands
