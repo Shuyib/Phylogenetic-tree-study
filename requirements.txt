@@ -14,5 +14,5 @@ pylint==2.15.9
 pytest==7.2.0
 black==24.3.0
 traitlets>5
-scikit-learn==1.2.2
+scikit-learn==1.5.0
 tensorflow==2.12.1
