@@ -16,3 +16,4 @@ black==24.3.0
 traitlets>5
 scikit-learn
 tensorflow==2.12.1
+distutils
