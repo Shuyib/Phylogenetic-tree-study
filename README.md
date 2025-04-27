@@ -1,5 +1,6 @@
 [![Phylogenetic tree study Continuous Integration/Continuos Delivery](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml/badge.svg)](https://github.com/Shuyib/Phylogenetic-tree-study/actions/workflows/devops.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Shuyib/Phylogenetic-tree-study/HEAD)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Shuyib/Phylogenetic-tree-study)
 
 # Phylogenetic-tree-study
 
