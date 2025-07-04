@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.12.7-blue.svg)
 ![Pandas](https://img.shields.io/badge/pandas-2.2.3-green.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-CC0-blue.svg)
 
 ## Project Description
 
