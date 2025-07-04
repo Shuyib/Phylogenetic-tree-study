@@ -1,0 +1,50 @@
+,Hit,DB,Accession,Description,Organism,Length,Score(Bits),Identities(%),Positives(%),E()
+0,1,TR,Q603S7,Conserved domain protein OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=MCA0750 PE=4 SV=1,Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath),43,92,93.8,93.8,6.6e-05
+1,2,TR,A0A182EY67,Transposase OS=Onchocerca ochengi OX=42157 GN=NOO_LOCUS13122 PE=4 SV=1,Onchocerca ochengi,105,93,93.8,100.0,0.0002
+2,3,TR,A0A1X7MEN8,[weak similarity to] METH_orf58e OS=methanotrophic bacterial endosymbiont of Bathymodiolus sp. OX=280772 GN=BMETH_19_6 PE=4 SV=1,methanotrophic bacterial endosymbiont of Bathymodiolus sp.,43,89,93.8,93.8,0.00021
+3,4,TR,A0A7N0T861,Secreted protein OS=Kalanchoe fedtschenkoi OX=63787 PE=4 SV=1,Kalanchoe fedtschenkoi,64,81,87.5,87.5,0.0083
+4,5,TR,A0A2P5VX61,Ribosomal protein L16 OS=Gossypium barbadense OX=3634 GN=GOBAR_AA37329 PE=4 SV=1,Gossypium barbadense,380,81,87.5,87.5,0.016
+5,6,TR,A0A445HP50,Putative leucine-rich repeat receptor-like protein kinase OS=Glycine soja OX=3848 GN=D0Y65_033999 PE=4 SV=1,Glycine soja,283,81,87.5,87.5,0.016
+6,7,TR,A0A078G2X3,(rape) hypothetical protein OS=Brassica napus OX=3708 GN=BnaC09g29270D PE=4 SV=1,Brassica napus,244,81,87.5,87.5,0.016
+7,8,TR,A0A6A5L520,Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00044194 PE=4 SV=1,Lupinus albus,179,81,87.5,87.5,0.016
+8,9,TR,A0A6A5MV91,Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00044220 PE=4 SV=1,Lupinus albus,173,81,87.5,87.5,0.016
+9,10,TR,A0A835AA97,Uncharacterized protein OS=Digitaria exilis OX=1010633 GN=HU200_064091 PE=4 SV=1,Digitaria exilis,141,81,87.5,87.5,0.016
+10,11,TR,A0A1T2WYT5,EAL domain-containing protein OS=Paenibacillus selenitireducens OX=1324314 GN=BVG16_32155 PE=4 SV=1,Paenibacillus selenitireducens,64,78,87.5,87.5,0.026
+11,12,TR,A0A231HGN0,Uncharacterized protein OS=Pusillimonas sp. T2 OX=1548123 GN=PuT2_15500 PE=4 SV=1,Pusillimonas sp. T2,80,78,87.5,87.5,0.034
+12,13,TR,A0A8J2K4I3,"Ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit OS=Allacma fusca OX=39272 GN=AFUS01_LOCUS21665 PE=4 SV=1",Allacma fusca,74,77,81.2,87.5,0.045
+13,14,TR,A0A0D2QMU8,Uncharacterized protein OS=Gossypium raimondii OX=29730 GN=B456_003G182700 PE=4 SV=1,Gossypium raimondii,61,76,81.2,81.2,0.05
+14,15,TR,A0A0R3RDP4,Transposase OS=Brugia timori OX=42155 GN=BTMF_LOCUS16133 PE=4 SV=1,Brugia timori,103,77,81.2,87.5,0.061
+15,16,TR,A0A6A5L6K8,Secreted protein (Fragment) OS=Lupinus albus OX=3870 GN=Lal_00048595 PE=4 SV=1,Lupinus albus,292,77,81.2,81.2,0.063
+16,17,TR,A0A6A5LCS9,Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00015046 PE=4 SV=1,Lupinus albus,191,77,81.2,87.5,0.064
+17,18,TR,A0A6A5LBC8,Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00014971 PE=4 SV=1,Lupinus albus,186,77,81.2,87.5,0.064
+18,19,TR,A6P026,Uncharacterized protein OS=Pseudoflavonifractor capillosus ATCC 29799 OX=411467 GN=BACCAP_03831 PE=4 SV=1,Pseudoflavonifractor capillosus ATCC 29799,40,73,81.2,81.2,0.086
+19,20,TR,A0A5D2WBM7,Secreted protein OS=Gossypium mustelinum OX=34275 GN=E1A91_D01G201700v1 PE=4 SV=1,Gossypium mustelinum,88,75,75.0,81.2,0.11
+20,21,TR,A0A0D2R9M3,Secreted protein OS=Gossypium raimondii OX=29730 GN=B456_002G201900 PE=4 SV=1,Gossypium raimondii,88,75,75.0,81.2,0.11
+21,22,TR,A0A0J8CVB1,Conserved domain protein OS=Beta vulgaris subsp. vulgaris OX=3555 GN=BVRB_3g055950 PE=4 SV=1,Beta vulgaris subsp. vulgaris,49,73,86.7,86.7,0.11
+22,23,TR,A0A4S8I2V0,Uncharacterized protein OS=Musa balbisiana OX=52838 GN=C4D60_Mb00t14770 PE=4 SV=1,Musa balbisiana,135,74,81.2,81.2,0.18
+23,24,TR,A0A6A5L4S8,Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00002526 PE=4 SV=1,Lupinus albus,137,74,81.2,81.2,0.18
+24,25,TR,A0A6A5L0V1,Movement protein OS=Lupinus albus OX=3870 GN=Lal_00008066 PE=4 SV=1,Lupinus albus,470,73,81.2,81.2,0.25
+25,26,TR,A0A6A5L6Q4,Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00007124 PE=4 SV=1,Lupinus albus,245,73,81.2,81.2,0.26
+26,27,TR,A0A2G9G3X4,Secreted protein OS=Handroanthus impetiginosus OX=429701 GN=CDL12_27485 PE=4 SV=1,Handroanthus impetiginosus,132,73,75.0,87.5,0.26
+27,28,TR,G5JNR0,Uncharacterized protein OS=Streptococcus criceti HS-6 OX=873449 GN=STRCR_0222 PE=4 SV=1,Streptococcus criceti HS-6,47,70,75.0,75.0,0.34
+28,29,TR,A0A2I0VD92,Uncharacterized protein OS=Dendrobium catenatum OX=906689 GN=MA16_Dca027877 PE=4 SV=1,Dendrobium catenatum,98,72,91.7,91.7,0.35
+29,30,TR,A0A7J8TST4,Glycerophosphodiester phosphodiesterase OS=Gossypium klotzschianum OX=34286 GN=Goklo_025850 PE=4 SV=1,Gossypium klotzschianum,143,72,91.7,91.7,0.37
+30,31,TR,A0A7J9B3N1,Uncharacterized protein OS=Gossypium laxum OX=34288 GN=Golax_004554 PE=4 SV=1,Gossypium laxum,88,71,100.0,100.0,0.47
+31,32,TR,A0A6A5L394,Uncharacterized protein OS=Lupinus albus OX=3870 GN=Lal_00013077 PE=4 SV=1,Lupinus albus,343,71,81.2,81.2,0.51
+32,33,TR,A0A6A5L2S0,Uncharacterized protein ycf68 OS=Lupinus albus OX=3870 GN=Lal_00001023 PE=3 SV=1,Lupinus albus,172,71,75.0,81.2,0.52
+33,34,TR,A0A6A5L047,Uncharacterized protein ycf68 OS=Lupinus albus OX=3870 GN=Lal_00001514 PE=3 SV=1,Lupinus albus,157,71,75.0,81.2,0.52
+34,35,TR,A0A1Y4DBS3,Uncharacterized protein OS=Collinsella sp. An271 OX=1965616 GN=B5F74_12140 PE=4 SV=1,Collinsella sp. An271,71,70,81.2,81.2,0.56
+35,36,TR,A0A2J6KDH0,Uncharacterized protein OS=Lactuca sativa OX=4236 GN=LSAT_9X35301 PE=4 SV=1,Lactuca sativa,199,69,75.0,81.2,1.0
+36,37,TR,A0A6A5LUN7,DUF1566 domain-containing protein OS=Lupinus albus OX=3870 GN=Lal_00043067 PE=4 SV=1,Lupinus albus,156,69,75.0,81.2,1.0
+37,38,TR,A0A4S8I6G8,Outer-membrane lipoprotein LolB OS=Musa balbisiana OX=52838 GN=C4D60_Mb00t00990 PE=4 SV=1,Musa balbisiana,135,69,68.8,87.5,1.0
+38,39,TR,A0A523Q7C7,Integral membrane protein OS=Ideonella sp. MAG2 OX=2083017 GN=C4K60_02605 PE=4 SV=1,Ideonella sp. MAG2,456,68,91.7,100.0,1.4
+39,40,TR,A0A6A5L7H6,Uncharacterized protein ycf68 (Fragment) OS=Lupinus albus OX=3870 GN=Lal_00008050 PE=3 SV=1,Lupinus albus,324,67,75.0,75.0,2.1
+40,41,TR,A0A6A5L5T7,Uncharacterized protein ycf68 (Fragment) OS=Lupinus albus OX=3870 GN=Lal_00005175 PE=3 SV=1,Lupinus albus,234,67,75.0,75.0,2.1
+41,42,TR,A0A6A5KX99,Uncharacterized protein ycf68 OS=Lupinus albus OX=3870 GN=Lal_00005314 PE=3 SV=1,Lupinus albus,217,67,75.0,75.0,2.1
+42,43,TR,A0A6A5L4E3,Uncharacterized protein ycf68 OS=Lupinus albus OX=3870 GN=Lal_00013820 PE=3 SV=1,Lupinus albus,198,67,75.0,75.0,2.1
+43,44,TR,A0A830AY11,Uncharacterized protein OS=Phtheirospermum japonicum OX=374723 GN=PHJA_000108500 PE=4 SV=1,Phtheirospermum japonicum,55,65,85.7,85.7,2.7
+44,45,TR,A0A1Z5T279,Ras-GEF domain-containing protein OS=Hortaea werneckii EXF-2000 OX=1157616 GN=BTJ68_09369 PE=4 SV=1,Hortaea werneckii EXF-2000,1184,65,69.2,100.0,4.1
+45,46,TR,A0A3M7AKK4,SH3 domain-containing protein (Fragment) OS=Hortaea werneckii OX=91943 GN=D0866_09768 PE=4 SV=1,Hortaea werneckii,966,65,69.2,100.0,4.1
+46,47,TR,A0A1Z5SNM5,SH3 domain-containing protein OS=Hortaea werneckii EXF-2000 OX=1157616 GN=BTJ68_14447 PE=4 SV=1,Hortaea werneckii EXF-2000,872,65,69.2,100.0,4.1
+47,48,TR,A0A830C5K9,Protein TIC 214 OS=Phtheirospermum japonicum OX=374723 GN=PHJA_001743800 PE=3 SV=1,Phtheirospermum japonicum,61,64,91.7,91.7,4.4
+48,49,TR,F9ZW56,Asparagine synthase OS=Methylomonas methanica (strain MC09) OX=857087 GN=Metme_3666 PE=3 SV=1,Methylomonas methanica (strain MC09),649,64,83.3,83.3,5.8

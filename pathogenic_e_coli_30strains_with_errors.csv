@@ -1,0 +1,33 @@
+strain_name,pathogenic_type,infection_type,pathogenesis_mechanisms,reference_or_ncbi_id
+Escherichia coli O157:H7 str. EDL933,EHEC (STEC),Hemorrhagic colitis; hemolytic uremic syndrome,Shiga toxins 1 & 2; LEE-encoded T3SS (intimin/Tir) causing attaching–effacing (A/E) lesions,TaxID 155864
+Escherichia coli O157:H7 str. Sakai,EHEC (STEC),Hemorrhagic colitis; HUS,Shiga toxins; LEE T3SS; plasmid-encoded enterohemolysin,TaxID 386585
+Escherichia coli O104:H4 str. 2011C-3493,EAHEC (Stx2+ EAEC),Hemorrhagic colitis; HUS,Shiga toxin 2a; aggregative adherence fimbriae (AAF/I); Aai T6SS,TaxID 1133852
+Escherichia coli O26:H11 str. 11368,EHEC,Bloody diarrhea; HUS,Stx1; LEE T3SS; intimin,TaxID 573235
+Escherichia coli O111:H- str. 11128,EHEC,Bloody diarrhea; HUS,,TaxID 585396
+Escherichia coli O121:H19 str. 2010C-4824,EHEC,Hemorrhagic colitis; HUS,Stx2; LEE-encoded A/E lesions,TaxID 1446565
+Escherichia coli O145:H28 str. RM12581,EHEC,Bloody diarrhea; HUS,Stx2; LEE T3SS; outbreak-associated,TaxID 1248823
+Escherichia coli O103:H2 str. 12009,EHEC,Enterohemorrhagic diarrhea,Stx1; LEE T3SS,TaxID 585395
+Escherichia coli O55:H7 str. CB9615,aEPEC,Infant diarrhea,Intimin-mediated A/E lesions; lacks BFP,TaxID 701177
+Escherichia coli O127:H6 str. E2348/69,tEPEC,Infant watery diarrhea,Bundle-forming pili; LEE T3SS (intimin/Tir) A/E lesions,TaxID 574521
+Escherichia coli O119:H4 str. 03-3458,tEPEC,Pediatric diarrhea,BFP; LEE T3SS,TaxID 1446551
+Escherichia coli B171-8 (O111:NM),tEPEC,Infant diarrhea,LEE T3SS; integrated prophage GEIs; produces Esp proteins,TaxID 344601
+"Escherichia coli O86:H34 str. 99-3124",aEPEC,Diarrhea in children,Intimin; Type I fimbriae; lacks BFP,TaxID 1446759
+Escherichia coli ETEC H10407,ETEC,Watery traveler's diarrhea,Heat-labile (LT) & heat-stable (ST) enterotoxins; CFA/I colonization factor,TaxID 316401
+Escherichia coli O139:H28 str. E24377A,ETEC,Acute watery diarrhea,LT & ST toxins; CFA/II (CS1/CS3) fimbriae,TaxID 331111
+Escherichia coli O6:H16 B2C,ETEC,Traveler's diarrhea,LT toxin; CS5/CS6 colonization factors,TaxID 1370107
+Escherichia coli EAEC 042,EAEC,"Persistent diarrhea; HIV-associated diarrhea",Aggregative adherence fimbriae (AAF/II); EAST-1 toxin; AggR regulon,TaxID 216592
+Escherichia coli EAEC 55989,EAEC,Traveler's diarrhea,AAF/III fimbriae; plasmid-encoded Pet toxin,TaxID 585055
+Escherichia coli EAEC C1010-00,EAEC,"Diarrhea, outbreak strain",AAF/V; EAST-1; AggR,TaxID 1276826
+Escherichia coli 53638,EIEC,Dysentery-like invasive colitis,pINV plasmid; Ipa proteins & T3SS for epithelial invasion,TaxID 344610
+Escherichia coli UTI89,UPEC (ExPEC),Uncomplicated cystitis,Type 1 fimbriae; siderophores; biofilm formation,TaxID 364106
+Escherichia coli CFT073,UPEC (ExPEC),Pyelonephritis; sepsis,P fimbriae; α-hemolysin; aerobactin & salmochelin siderophores,TaxID 199310
+Escherichia coli O25b:H4-ST131 str. EC958,ExPEC (multidrug-resistant),UTI; bloodstream infections,Type 1 & P fimbriae; CTX-M-15 ESBL; siderophores,TaxID 941322
+Escherichia coli RS218 (O18:K1:H7),NMEC,Neonatal meningitis,K1 capsule; S-fimbriae; CNF1 toxin; invasins
+Escherichia coli CE10 (O7:K1),NMEC,Neonatal meningitis,K1 capsule; type 1 fimbriae; ibeA invasion gene,TaxID 1072459
+Escherichia coli LF82,AIEC,Associated with Crohn's disease ileitis,Type 1 pili (FimH); long polar fimbriae; survives in macrophages,TaxID 591946
+Escherichia coli O6:K15:H31 str. 536,UPEC (ExPEC),UTI; urosepsis model,P & S fimbriae; cytotoxic necrotising factor 1; siderophores,TaxID 362663
+Escherichia coli IHE3034 (O18:K1:H7),NMEC,Neonatal meningitis; sepsis,K1 capsule; invasins ibeA/ibeB; S-fimbriae,TaxID 714962
+Escherichia coli O45:H2 str. 2009C-4780,EHEC,Bloody diarrhea,Stx1a; Stx2a; LEE T3SS,TaxID 1446742
+Escherichia coli O91:H21 str. B2F1,EHEC (LEE-negative),Hemorrhagic diarrhea; fatal mouse sepsis model,Stx2 copies on prophages; LAA adhesin; urease cluster,TaxID 1078030
+,EHEC,Missing strain name,Stx1; LEE T3SS,TaxID 999999
+Escherichia coli TEST,INVALID_TYPE,Test infection,Test mechanisms,INVALID_ID
