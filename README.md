@@ -87,11 +87,11 @@ The automated scripts detect and fix the following issues:
 
 ## Visual Results
 
-**Before Data Cleaning:**
-![Before Data Cleaning](Screenshot%202025-07-04%20at%2013.02.36.png)
+**After Data Cleaning:**
+![After Data Cleaning](Screenshot%202025-07-04%20at%2013.02.36.png)
 
 **After Data Cleaning:**
-![After Data Cleaning](Screenshot%202025-07-04%20at%2013.02.26.png)
+![Before Data Cleaning](Screenshot%202025-07-04%20at%2013.02.26.png)
 
 **Error Detection Limitations:**
 **Can't Detect Subtle Errors:**
