@@ -90,7 +90,7 @@ The automated scripts detect and fix the following issues:
 **After Data Cleaning:**
 ![After Data Cleaning](Screenshot%202025-07-04%20at%2013.02.36.png)
 
-**After Data Cleaning:**
+**Before Data Cleaning:**
 ![Before Data Cleaning](Screenshot%202025-07-04%20at%2013.02.26.png)
 
 **Error Detection Limitations:**
